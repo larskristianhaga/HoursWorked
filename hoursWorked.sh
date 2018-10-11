@@ -19,5 +19,5 @@ timeDifference=`expr ${leftWorkTimeEpoch} - ${gotToWorkTimeEpoch}`
 # And use date to convert the seconds back to something more meaningful
 echo "You have worked for `date +%H:%M -ud @${timeDifference}` (HH:MM)"
 
-# Sleeps 20 secounds so user has time to read the output, then closes terminal window
-sleep 20s
+# Sleeps 10 secounds so user has time to read the output, then closes terminal window
+sleep 10s
